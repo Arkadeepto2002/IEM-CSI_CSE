@@ -19,8 +19,10 @@
     padding-top: 50px;
 }
 #title{
+    padding-top: 50px;
     background-color: #2A3990;
 }
+
 /*Navbar*/
 
 .navbar{
@@ -122,12 +124,14 @@
 .navbar .collapse .navbar-nav .nav-link:hover{
     color:rgb(29, 28, 28);
 }
-.navbar-toggler .collapse{
-    font-size: 3vw;
-}
+
 .IEM_CSI{
     margin-left: 20px;;
 }
+#navbarNav{
+    text-align: left;
+}
+
 /*Navbar*/
 
 #events{
@@ -150,3 +154,14 @@
     padding-top:20px;
     font-size: 3vm;
 }
+
+@media only screen and (max-width: 580px) {
+    .heading{
+        font-size: 5vw;
+    }
+    #navbarNav a{
+        font-size: 2.8vw;
+    }
+   
+ }
+ 
